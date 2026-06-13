@@ -92,4 +92,4 @@ print(f"\\nПриклад запису:")
 print(df.iloc[0].to_dict())
 
 df.to_parquet(OUTPUT_FILE, index=False)
-print(f"\\nЗбережено в{OUTPUT_FILE}")
+print(f"\\nЗбережено в {OUTPUT_FILE}")
